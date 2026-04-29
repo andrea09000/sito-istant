@@ -1,4 +1,4 @@
-# 🌌 Spottly - Sito web
+# 🌌 istant - Sito web
 
 ---
 
@@ -15,7 +15,7 @@
 
 1. Clona la repository:
    ```bash
-   git clone https://github.com/Spottly-Team/website.git
+   git clone https://github.com/istant-Team/website.git
    ```
 2. Apri `index.html` nel browser.
 3. (Opzionale) Per test locale con server:
@@ -36,7 +36,7 @@
 
 ## 📲 Segui gli aggiornamenti
 
-👉 [Instagram – @app.spottly](https://www.instagram.com/app.spottly/)
+👉 [Instagram – @app.istant](https://www.instagram.com/app.istant/)
 
 ---
 

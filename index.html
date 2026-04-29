@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+    <!-- 
     <script>
         (function() {
             var ua = navigator.userAgent || navigator.vendor || window.opera;
             var isIPhone = /iPhone|iPad|iPod/i.test(ua);
             var isAndroid = /android/i.test(ua);
             if (isIPhone || isAndroid) {
-                if (sessionStorage.getItem('spottly_from_store')) {
-                    sessionStorage.removeItem('spottly_from_store');
+                if (sessionStorage.getItem('istant_from_store')) {
+                    sessionStorage.removeItem('istant_from_store');
                     return;
                 }
                 function doRedirect() {
-                    sessionStorage.setItem('spottly_from_store', '1');
+                    sessionStorage.setItem('istant_from_store', '1');
                     if (isIPhone) {
-                        window.location.href = 'https://apps.apple.com/us/app/spottly/id6756431227';
+                        window.location.href = 'https://apps.apple.com/us/app/istant/id6756431227';
                     } else {
-                        window.location.href = 'https://play.google.com/store/apps/details?id=com.spottlyapp.mobile&hl=it';
+                        window.location.href = 'https://play.google.com/store/apps/details?id=com.istantapp.mobile&hl=it';
                     }
                 }
                 if (document.readyState === 'complete') {
@@ -26,39 +27,39 @@
                 }
             }
         })();
-    </script>
-    <script data-goatcounter="https://andreasavo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    </script>-->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Spottly è l'app degli spotted per studenti: posta in anonimo, scrolla il feed e scopri se qualcuno ha spottato proprio te. Zero DM, zero match, solo vibes.">
-    <meta name="keywords" content="spotted, studenti, app studenti, spotted anonimi, social studenti, spotted scuola, spotted università, Spottly">
-    <title>Spottly</title>
+    <meta name="description" content="istant è l'app degli spotted per studenti: posta in anonimo, scrolla il feed e scopri se qualcuno ha spottato proprio te. Zero DM, zero match, solo vibes.">
+    <meta name="keywords" content="spotted, studenti, app studenti, spotted anonimi, social studenti, spotted scuola, spotted università, istant">
+    <title>Istant</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <meta property="og:title" content="Spottly - È uno spotted. Non è un DM. È un feed.">
-    <meta property="og:description" content="Hai visto qualcuno e non hai detto nulla? Spottalo su Spottly. Anonimo, easy, zero imbarazzo.">
+    <meta property="og:title" content="istant - È uno spotted. Non è un DM. È un feed.">
+    <meta property="og:description" content="Hai visto qualcuno e non hai detto nulla? Spottalo su istant. Anonimo, easy, zero imbarazzo.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.appspottly.com/">
+    <meta property="og:url" content="https://www.appistant.com/">
     <meta property="og:locale" content="it_IT">
 
 
    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://appspottly.com/" />
-    <meta property="og:title" content="Spottly - È uno spotted. Non è un DM. È un feed." />
-    <meta property="og:description" content="Hai visto qualcuno e non hai detto nulla? Spottalo su Spottly. Anonimo, easy, zero imbarazzo." />
-    <meta property="og:image" content="https://raw.githubusercontent.com/Spottly-Team/website/refs/heads/main/metatags-bg.png" />
+    <meta property="og:url" content="https://appistant.com/" />
+    <meta property="og:title" content="istant - È uno spotted. Non è un DM. È un feed." />
+    <meta property="og:description" content="Hai visto qualcuno e non hai detto nulla? Spottalo su istant. Anonimo, easy, zero imbarazzo." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/istant-Team/website/refs/heads/main/metatags-bg.png" />
 
     <!-- X (Twitter) -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://appspottly.com/" />
-    <meta property="twitter:title" content="Spottly - È uno spotted. Non è un DM. È un feed." />
-    <meta property="twitter:description" content="Hai visto qualcuno e non hai detto nulla? Spottalo su Spottly. Anonimo, easy, zero imbarazzo." />
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/Spottly-Team/website/refs/heads/main/metatags-bg.png" />
+    <meta property="twitter:url" content="https://appistant.com/" />
+    <meta property="twitter:title" content="istant - È uno spotted. Non è un DM. È un feed." />
+    <meta property="twitter:description" content="Hai visto qualcuno e non hai detto nulla? Spottalo su istant. Anonimo, easy, zero imbarazzo." />
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/istant-Team/website/refs/heads/main/metatags-bg.png" />
 
     <!-- Icone -->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -79,7 +80,7 @@
     <!-- Header-like (non fisso) -->
     <div class="top-header">
         <div class="header-content">
-            <div class="logo">Spottly</div>
+            <div class="logo">Istant</div>
             <div class="header-buttons">
                 <a href="download.html" class="btn-primary" style="text-decoration: none; display: inline-block;">Scarica l'app</a>
             </div>
@@ -99,7 +100,7 @@
                     </li>
                     <li>
                         <span class="emoji">🔥</span>
-                        <span>Anonimo, easy, Spottly.</span>
+                        <span>Anonimo, easy, istant.</span>
                     </li>
                     <li>
                         <span class="emoji">👀</span>
@@ -107,9 +108,9 @@
                     </li>
                 </ul>
                 <p class="description">
-                    Spottly è dove finiscono tutti gli spotted degli studenti.
+                    istant è dove finiscono tutti gli spotted degli studenti.
                     Hai visto qualcuno in corridoio, in classe o all’uscita e non hai detto nulla?
-                    Tranquillo, ci pensa Spottly.
+                    Tranquillo, ci pensa istant.
                     Scrolla il feed, posta in anonimo e scopri se qualcuno ha spottato proprio te.
                     Zero imbarazzo, solo vibes.
                 </p>
@@ -119,7 +120,7 @@
             <!-- Colonna Destra - GIF -->
             <div class="right-column">
                 <div class="video-container">
-                    <img src="IMG_8515.PNG" alt="Spottly" class="hero-video">
+                    <img src="IMG_8515.PNG" alt="istant" class="hero-video">
                 </div>
             </div>
         </div>
@@ -128,7 +129,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p class="footer-copyright">© 2026 Spottly</p>
+            <p class="footer-copyright">© 2026 istant</p>
             <div class="footer-links">
                 <a href="privacypolicy.html">Privacy Policy</a>
                 <a href="termini-condizioni.html">Termini e condizioni</a>

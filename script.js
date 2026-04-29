@@ -1,5 +1,5 @@
 // LOGO DIGITAZIONE
-const text = "Spottly";
+const text = "istant";
 const logo = document.getElementById("logo");
 let i = 0;
 
