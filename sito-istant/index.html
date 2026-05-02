@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- 
+    <script>
+        (function() {
+            var ua = navigator.userAgent || navigator.vendor || window.opera;
+            var isIPhone = /iPhone|iPad|iPod/i.test(ua);
+            var isAndroid = /android/i.test(ua);
+            if (isIPhone || isAndroid) {
+                if (sessionStorage.getItem('istant_from_store')) {
+                    sessionStorage.removeItem('istant_from_store');
+                    return;
+                }
+                function doRedirect() {
+                    sessionStorage.setItem('istant_from_store', '1');
+                    if (isIPhone) {
+                        window.location.href = 'https://apps.apple.com/us/app/istant/id6756431227';
+                    } else {
+                        window.location.href = 'https://play.google.com/store/apps/details?id=com.istantapp.mobile&hl=it';
+                    }
+                }
+                if (document.readyState === 'complete') {
+                    setTimeout(doRedirect, 100);
+                } else {
+                    window.addEventListener('load', function() { setTimeout(doRedirect, 100); });
+                }
+            }
+        })();
+    </script>-->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Istant è l'app degli spotted per studenti: posta in anonimo, scrolla il feed e scopri se qualcuno ha spottato proprio te. Zero DM, zero match, solo vibes.">
+    <meta name="keywords" content="Istant, app, Istant, Instant,real moments, capture moments, share moments, friends, no filters, no numbers, real moments">
+    <title>Istant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <meta property="og:title" content="Istant - Capture real moments">
+    <meta property="og:description" content="Istant è l'app per condividere momenti reali con i tuoi amici, senza filtri e senzanumeri. scatta segli chi puo vedere e vivi il momento.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://istantapp.it/">
+    <meta property="og:locale" content="it_IT">
+
+
+   
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://istantapp.it/" />
+    <meta property="og:title" content="Istant - Capture real moments" />
+    <meta property="og:description" content="Scatta e condividi momenti reali con i tuoi amici." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/istant-Team/website/refs/heads/main/metatags-bg.png" />
+
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://istantapp.it/" />
+    <meta property="twitter:title" content="Istant - Capture real moments" />
+    <meta property="twitter:description" content="Scatta e condividi momenti reali con i tuoi amici" />
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/istant-Team/website/refs/heads/main/metatags-bg.png" />
+
+    <!-- Icone -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+
+    <!-- Manifest per PWA -->
+    <link rel="manifest" href="site.webmanifest">
+
+    
+ 
+</head>
+<body>
+    <!-- Header-like (non fisso) -->
+    <div class="top-header">
+        <div class="header-content">
+            <div class="logo">Istant</div>
+            <div class="header-buttons">
+                <a href="download.html" class="btn-primary" style="text-decoration: none; display: inline-block;">Scarica l'app</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-wrapper">
+            <!-- Colonna Sinistra - Testo -->
+            <div class="left-column">
+                <h1>È uno momento.<br>Non è un numero.<br>È Istant.</h1>
+                <ul class="features-list">
+                    <li>
+                        <span class="emoji">⚡</span>
+                        <span>Scatta. Subito</span>
+                    </li>
+                    <li>
+                        <span class="emoji">🔥</span>
+                        <span>Condividi con chi vuoi.</span>
+                    </li>
+                    <li>
+                        <span class="emoji">👀</span>
+                        <span>Solo chi conta davvero</span>
+                    </li>
+                </ul>
+                <p class="description">
+                    Istant è l’app per condividere momenti reali, senza filtri e senza pressione.
+                    Scatta una foto, scegli chi può vederla e pubblica in un attimo.
+                    Niente like.
+                    Niente numeri.
+                    Solo momenti veri.
+                    Con Istant non devi impressionare nessuno: vivi, scatta e condividi solo con chi conta davvero.
+                </p>
+                <a href="download.html" class="download-button" style="text-decoration: none; display: inline-block;">Scarica l'app</a>
+            </div>
+
+            <!-- Colonna Destra - GIF -->
+            <div class="right-column">
+                <div class="video-container">
+                    <img src="IMG_8515.PNG" alt="Istant" class="hero-video">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-copyright">© 2026 Istant</p>
+            <div class="footer-links">
+                <a href="privacypolicy.html">Privacy Policy</a>
+                <a href="termini-condizioni.html">Termini e condizioni</a>
+                <a href="standard-community.html">Standard della community</a>
+                <a href="help.html">Help</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
